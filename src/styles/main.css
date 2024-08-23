@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter";
 }
 
 html, body {
@@ -20,4 +23,32 @@ header {
 nav {
     display: flex;
     justify-content: center;
+    gap: 50px;
+}
+
+nav button {
+    background-color: transparent;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    padding: 2px 15px;
+    font-size: 24px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+nav button:hover {
+    border-bottom: 3px solid #7A1CAC;
+}
+
+nav button.active {
+    border-bottom: 3px solid #7A1CAC;
+}
+
+#content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 60px);
+    background-color: #00000040;
 }

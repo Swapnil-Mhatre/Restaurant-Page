@@ -1,0 +1,57 @@
+#content>.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 320px);
+    grid-template-rows: repeat(2, 200px);
+    gap: 15px 20px;
+}
+
+#content>.wrapper .cateogary {
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#content>.wrapper .cateogary:hover .text {
+    cursor: pointer;
+    opacity: 1;
+}
+
+#content>.wrapper .cateogary .text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000060;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 0;
+}
+
+#content>.wrapper .type {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+
+    &#BreakFast {
+        background-image: url(../Assets/images/breakfast.png);
+    }
+    
+    &#Lunch {
+        background-image: url(../Assets/images/lunch.png);
+    }
+    
+    &#Dinner {
+        background-image: url(../Assets/images/dinner.png);
+    }
+    
+    &#Dessert {
+        background-image: url(../Assets/images/dessert.png);
+    }
+}

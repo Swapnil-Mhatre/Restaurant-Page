@@ -1,0 +1,36 @@
+#content .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 60%;
+    color: #fff
+}
+
+#content .container h2 {
+    align-self: flex-start;
+    background: linear-gradient(to right, #7A1CAC, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#content .container h2:last-child {
+    align-self: flex-end;
+    background: linear-gradient(to left, #7A1CAC, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#content .container .wrapper {
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    border-radius: 10px;
+    max-width: 80%;
+    padding: 20px 10px;
+
+}
+
+#content .container .wrapper p {
+    font-size: 20px;
+    font-weight: 500;
+}
