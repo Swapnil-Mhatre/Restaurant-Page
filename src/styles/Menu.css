@@ -55,3 +55,19 @@
         background-image: url(../Assets/images/dessert.png);
     }
 }
+
+@media (max-width: 425px) {
+    #content>.wrapper {
+        grid-template-columns: repeat(1, 300px);
+        grid-template-rows: repeat(4, 200px);
+        gap: 10px 20px;
+    }
+    
+    #content>.wrapper .cateogary {
+        border-radius: 10px;
+    }
+    
+    #content>.wrapper .cateogary .text {
+        font-size: 16px;
+    }
+}

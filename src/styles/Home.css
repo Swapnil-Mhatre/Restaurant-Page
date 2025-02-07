@@ -23,3 +23,25 @@
     cursor: pointer;
     background-color: #00000068;
 }
+
+@media (max-width: 425px) {
+    #content .Info {
+        padding: 0 10px;
+        gap: 15px;
+    }
+
+    .Info h1{
+        text-align: center;
+        line-height: 1;
+    }
+
+    .Info h1:nth-child(2) {
+        font-size: 18px;
+    }
+
+    #content .Info button.Booking {
+        padding: 7px 15px;
+        font-size: 14px;
+        width: 75%;
+    }
+}

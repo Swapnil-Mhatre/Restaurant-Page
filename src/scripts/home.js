@@ -10,7 +10,7 @@ function loadHomeContent () {
 
     const Heading = document.createElement("h1");
     Heading.classList.add("clr");
-    Heading.textContent = "Welcome to Hotel Pakwan";
+    Heading.textContent = "Welcome to Our Restaurant";
     info.appendChild(Heading);
 
     const Heading2 = document.createElement("h1");

@@ -49,6 +49,18 @@ nav button.active {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
     min-height: calc(100vh - 60px);
+    padding: 10px 0;
     background-color: #00000040;
+}
+
+@media (max-width: 425px) {
+    nav {
+        gap: 10px;
+    }
+
+    nav button {
+        font-size: 18px;
+    }
 }
